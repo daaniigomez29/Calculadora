@@ -193,7 +193,7 @@
         android:layout_height="97dp"
         android:text="1"
         android:textSize="30sp"
-        app:layout_constraintBottom_toTopOf="@+id/button21"
+        app:layout_constraintBottom_toTopOf="@+id/btnRaiz"
         app:layout_constraintEnd_toStartOf="@+id/btn2"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btn4" />
@@ -235,11 +235,12 @@
         app:layout_constraintTop_toBottomOf="@+id/btnResta" />
 
     <Button
-        android:id="@+id/button21"
+        android:id="@+id/btnRaiz"
         style="@style/Widget.AppCompat.Button"
         android:layout_width="103dp"
         android:layout_height="97dp"
-        android:text="Button"
+        android:text="√"
+        android:textSize="35sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/btn0"
         app:layout_constraintStart_toStartOf="parent"
@@ -254,7 +255,7 @@
         android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/btnDecimal"
-        app:layout_constraintStart_toEndOf="@+id/button21"
+        app:layout_constraintStart_toEndOf="@+id/btnRaiz"
         app:layout_constraintTop_toBottomOf="@+id/btn2" />
 
     <Button
